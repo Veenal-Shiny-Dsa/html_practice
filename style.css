@@ -1,6 +1,6 @@
 /* style.css */
 html, body {
-    height: 100px;
+    height: 150px;
     width: 1200px;
     /* background-color: lightblue; */
 }
@@ -19,8 +19,21 @@ head {
     color:blueviolet;
     font-family: Arial, sans-serif;
     text-align: center;
-}
+    border-color: black;
+    border-style: none;
 
+}
+table, th, td {
+    border: 1px solid black;
+    width:80%;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+}
+tr:hover{
+    background-color: Red;
+}
 *{
     box-sizing: border-box;
     text-align: center;
